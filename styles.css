@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+*{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'Cute Font', sans-serif;
+
+}
+
+body{
+
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(180deg,black,cyan);
+}
+.calculator{
+      border:2px solid rgb(128, 0, 68);
+      padding: 20px;
+      border-radius: 20px;
+      background: transparent;
+      box-shadow: 2px 10px 30px rgba(-120,40,70,0.603) ;
+
+
+}
+input{
+      width: 100%;
+      align-content: center;
+      border-radius: 50px;
+      border: 0.5px solid rgb(128, 0, 68);
+      padding: 7px;
+      margin:3px;
+      background: transparent;
+      box-shadow: 2px 5px 7px rgba(100,113,124,0.504);
+      font-size:30px;
+      text-align: right;
+      cursor: pointer;
+      color:white;
+}
+input::placeholder{
+      color:white;
+}
+
+button{
+      border: none;
+      border-radius: 50px;
+      width: 60px;
+      height: 60px;
+      margin:10px;
+      font-size: 25px;
+      background: silver;
+      box-shadow: 1px 3px 6px rgba(-20,-25,-55,0.608);
+      cursor: pointer;
+
+}
+.equal-btn{
+      background-color:darkblue;
+      color: bisque;
+      font-weight: 700;
+}
+.allclear-btn{
+      background-color: burlywood;
+      color: darkgreen;
+      font-weight: 700;
+}
+.delete-btn{
+      background-color: rgb(228, 93, 83);
+      color:black;
+      font-weight: 700;
+
+}
+.percentage{
+      background-color:bisque;
+      color:black;
+      font-weight: 700;
+
+}
+.operator{
+      background: linear-gradient(45deg,yellow,violet);
+      color:darkblue;
+      font-weight: 700;
+
+}
